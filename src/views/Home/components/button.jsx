@@ -13,21 +13,21 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: 'space-around',
         alignItems: 'center',
-        height: '300px'
+        height: 300
     },
     textUno: {
         width: 'auto',
-        fontSize: '40px',
+        fontSize: 40,
         backgroundColor: 'red',
-        padding: '12px',
-        borderRadius: '20px'
+        padding: 12,
+        borderRadius: 20
     },
     textDos: {
         width: 'auto',
-        fontSize: '40px',
+        fontSize: 40,
         backgroundColor: 'red',
-        padding: '10px',
-        borderRadius: '20px'
+        padding: 10,
+        borderRadius: 20
     }
 });
 

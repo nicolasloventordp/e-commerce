@@ -14,7 +14,7 @@ const MyAppText = (props) => {
     }
     return (
         <Text style={styles(props).text}>
-            {props.texto}
+            {props.text}
         </Text>
     );
 };
@@ -22,8 +22,8 @@ const MyAppText = (props) => {
 const styles = (props) => StyleSheet.create({
     text: {
         fontFamily: props.font ? props.font : 'Roboto-Regular',
-        fontSize: props.size ? props.size : '16px',
-        fontWeight: props.weight ? props.weight : '300',
+        fontSize: props.size ? props.size : 16,
+        fontWeight: props.weight ? props.weight : 300,
         color: props.color ? props.color : 'black',
     }
 });
